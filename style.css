@@ -164,8 +164,14 @@ p.size-numbers > span.number:nth-child(n+2) {
     border-radius: 16px;
 }
 
-.buy-store {
-
+.buy-navigation {
+    position: relative;
+    left: 18px;
+    top: 15px;
 }
 
-/* icon/maps/local_grocery_store_24px */
+.buy-store {
+    position: relative;
+    left: -5px;
+    top: 45px;
+}
