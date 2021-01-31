@@ -6,8 +6,6 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif; */
 }
 
 main.container {
@@ -52,4 +50,19 @@ h2.subtitle {
     color: #8F8F8F;
     font-size: 14px;
     line-height: 17px;
+}
+
+p.price {
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    color: #29455F;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+p.price > span {
+    color: #808080;
+    font-size: 14px;
+    line-height: 19px;
 }
