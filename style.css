@@ -69,7 +69,6 @@ p.price > span {
 
 .colors {
     font-family: 'Open Sans', sans-serif;
-    position: relative;
 }
 
 p.colors-title {
@@ -111,7 +110,6 @@ p.colors-options > span.option:nth-child(3) {
 
 .size {
     font-family: 'Montserrat', sans-serif;
-    position: relative;
 }
 
 p.size-title {
@@ -153,37 +151,42 @@ p.size-numbers > span.number:nth-child(n+2) {
 }
 
 .buy {
+    width: 49px;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  
+    padding: 2rem 0;
+  
     position: absolute;
     width: 49px;
     height: 80px;
     left: 195px;
     top: 254px;
-
-    background: #B5DB48;
+    
+    background-color: #b5db48;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
 }
 
-.buy-navigation-1 {
-    position: relative;
-    left: 18px;
-    top: 15px;
+.buy .expand-more {
+    display: flex;
+    flex-direction: column;
+  
+    margin-bottom: 0.5rem;
 }
-
-.buy-navigation-2 {
-    position: relative;
-    left: 2px;
-    top: 20px;
+  
+.buy .expand-more img:nth-child(1) {
+    opacity: 0.2;
 }
-
-.buy-navigation-3 {
-    position: relative;
-    left: -15px;
-    top: 25px;
+  
+.buy .expand-more img:nth-child(2) {
+    opacity: 0.4;
 }
-
-.buy-store {
-    position: relative;
-    left: 12px;
-    top: 25px;
+  
+.buy .expand-more img:nth-child(3) {
+    opacity: 0.6;
 }
