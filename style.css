@@ -66,3 +66,44 @@ p.price > span {
     font-size: 14px;
     line-height: 19px;
 }
+
+.colors {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p.colors-title {
+    color: #808080;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;  
+}
+
+p.colors-options {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+p.colors-options > span.option {
+    width: 21px;
+    height: 21px;
+    left: 241px;
+    top: 586px;
+    border-radius: 30px;
+
+    background: #B5DB48;
+}
+
+p.colors-options > span.option:nth-child(2) {
+    width: 18px;
+    height: 18px;
+    margin-left: 20px;
+    background: #FF3838;
+}
+
+p.colors-options > span.option:nth-child(3) {
+    width: 18px;
+    height: 18px;
+    margin-left: 20px;
+    background: #3864FF;
+}
