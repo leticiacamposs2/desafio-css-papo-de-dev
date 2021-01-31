@@ -69,6 +69,7 @@ p.price > span {
 
 .colors {
     font-family: 'Open Sans', sans-serif;
+    position: relative;
 }
 
 p.colors-title {
@@ -110,6 +111,7 @@ p.colors-options > span.option:nth-child(3) {
 
 .size {
     font-family: 'Montserrat', sans-serif;
+    position: relative;
 }
 
 p.size-title {
@@ -148,4 +150,16 @@ p.size-numbers > span.number:nth-child(n+2) {
     color: #808080;
 
     background: white;
+}
+
+.buy {
+    position: absolute;
+    width: 49px;
+    height: 80px;
+    left: 195px;
+    top: 254px;
+
+    background: #B5DB48;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
