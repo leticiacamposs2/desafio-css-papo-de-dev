@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@600;700&display=swap');
 
-/* resetando todo o css default do navegador */
+:root {
+    --green: #b5db48;
+    --red: #ff3838;
+    --blue: #3864ff;
+    --dark-blue: #29455F;
+    --white: #ffffff;
+    --grey: #8f8f8f;
+    --light-gray: #808080;
+}
+
 * {
     margin: 0;
     border: 0;
@@ -17,7 +26,7 @@ main.container {
 }
 
 section.card {
-    background: white;
+    background: var(--white);
     width: 263px;
     height: 386px;
     
@@ -40,14 +49,14 @@ section.card {
 }
 
 h1.title {
-    color: #29455F;
+    color: var(--dark-blue);
     font-size: 26px;
     line-height: 32px;
 }
 
 h2.subtitle {
     font-family: 'Montserrat', sans-serif;
-    color: #8F8F8F;
+    color: var(--grey);
     font-size: 14px;
     line-height: 17px;
 }
@@ -55,14 +64,14 @@ h2.subtitle {
 p.price {
     text-align: right;
     font-family: 'Open Sans', sans-serif;
-    color: #29455F;
+    color: var(--dark-blue);
     font-weight: bold;
     font-size: 22px;
     line-height: 30px;
 }
 
 p.price > span {
-    color: #808080;
+    color: var(--light-gray);
     font-size: 14px;
     line-height: 19px;
 }
@@ -72,7 +81,7 @@ p.price > span {
 }
 
 p.colors-title {
-    color: #808080;
+    color: var(--light-gray);
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;  
@@ -91,21 +100,21 @@ p.colors-options > span.option {
     top: 586px;
     border-radius: 30px;
 
-    background: #B5DB48;
+    background: var(--green);
 }
 
 p.colors-options > span.option:nth-child(2) {
     width: 18px;
     height: 18px;
     margin-left: 20px;
-    background: #FF3838;
+    background: var(--red);
 }
 
 p.colors-options > span.option:nth-child(3) {
     width: 18px;
     height: 18px;
     margin-left: 20px;
-    background: #3864FF;
+    background: var(--blue);
 }
 
 .size {
@@ -114,7 +123,7 @@ p.colors-options > span.option:nth-child(3) {
 
 p.size-title {
     font-family: 'Open Sans', sans-serif;  
-    color: #808080;
+    color: var(--light-gray);
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
@@ -137,17 +146,17 @@ p.size-numbers > span.number {
     text-align: center;
     border-radius: 5px;
 
-    color: #FFFFFF;
-    background: #B5DB48;
+    color: var(--white);
+    background: var(--green);
 }
 
 p.size-numbers > span.number:nth-child(n+2) {
     width: 23px;
     height: 16px;
     margin-left: 10px;
-    color: #808080;
+    color: var(--light-gray);
 
-    background: white;
+    background: var(--white);
 }
 
 .buy {
@@ -167,7 +176,7 @@ p.size-numbers > span.number:nth-child(n+2) {
     left: 195px;
     top: 254px;
     
-    background-color: #b5db48;
+    background-color: var(--green);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
 }
