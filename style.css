@@ -113,10 +113,11 @@ p.colors-options > span.option:nth-child(3) {
 }
 
 p.size-title {
+    font-family: 'Open Sans', sans-serif;  
     color: #808080;
     font-weight: 600;
     font-size: 12px;
-    line-height: 16px;  
+    line-height: 16px;
 }
 
 p.size-numbers {
