@@ -107,3 +107,44 @@ p.colors-options > span.option:nth-child(3) {
     margin-left: 20px;
     background: #3864FF;
 }
+
+.size {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p.size-title {
+    color: #808080;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;  
+}
+
+p.size-numbers {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+p.size-numbers > span.number {
+    width: 23px;
+    height: 16px;
+    left: 239px;
+    top: 650px;
+
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 5px;
+
+    color: #FFFFFF;
+    background: #B5DB48;
+}
+
+p.size-numbers > span.number:nth-child(n+2) {
+    width: 23px;
+    height: 16px;
+    margin-left: 10px;
+    color: #808080;
+
+    background: white;
+}
